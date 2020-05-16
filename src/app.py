@@ -34,6 +34,13 @@ def handle_hello():
         "hello": "world",
         "family": members
     }
+    maria = {
+        "id": 1,
+        "first_name": "Maria",
+        "last_name": "Jackson",
+        "age": 23,
+        "lucky_number": [23, 34, 6543,34]
+    }
 
 
     return jsonify(response_body), 200
